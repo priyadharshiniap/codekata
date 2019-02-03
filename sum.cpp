@@ -1,14 +1,13 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+int main()
 {
-int n,i,a;
-cout<<"enter number";
-cin>>n;
-for(i=0;i<n;i++)
-{
-  a=a+i;
-  cout<<"sum is"<<a;
-}
-getch();
+	int n,i,a=0;
+	cin>>n;
+	for(i=1;i<=n;i++)
+	{
+		a=a+i;
+	}
+	cout<<a;
+	return 0;
 }
