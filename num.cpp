@@ -1,15 +1,14 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+int main()
 {
   int a,b;
-  cout<<"enter the number";
   cin>>a;
-  while(a)
+  while(a!=0)
   {
     a=a/10;
     b++;
   }
   cout<<b;
-  getch();
+  return 0;
 }
